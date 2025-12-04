@@ -130,11 +130,11 @@
 .foodpic2 {
     right: 90px;
 }
-    .newsicon2 img {
+    /* .newsicon2 img {
         width: 15%;
         right: 10%;
         top: 95%;
-    }
+    } */
 
     .bannercard h1 {
         font-size: 70px;
@@ -854,11 +854,11 @@
         display: none;
     } */
 
-    .newsicon2 img {
+    /* .newsicon2 img {
         width: 40%;
         right: 10%;
         top: 95%;
-    }
+    } */
 
 
 

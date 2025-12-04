@@ -1179,13 +1179,13 @@ button {
     position: absolute;
     width: 200px;
     height: 250px;
-    top: 60%;
-    left: 1%;
+    top: 50px;
+    left:20px;
     transform: rotate(-10deg);
     z-index: -1;
 }
 
-.newssection {
+.newsection {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -1275,13 +1275,16 @@ button {
     align-items: center;
 }
 
+
 .newsicon2 img {
-    width: 15%;
     position: absolute;
-    right: 10%;
-    top: 87%;
+    width: 200px;
+    bottom: -130px;
+    right:50px;
+    
     z-index: -1;
 }
+
 
 /* 點擊下方大卡片 */
 .newsBottomCard {
