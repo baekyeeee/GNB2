@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gnb_homepage</title>
+    <link rel="stylesheet" href="./cssreset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./gnbcss.css">
+    <link rel="stylesheet" href="./media.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- 第一塊banner -->
+    <section class="indexbanner">
+        <div class="bannerpic">
+
+            <div class="container">
+
+                <div class="header" id="mainNav">
+                    <input type="checkbox" id="menu_control">
+                    <div class="headerburger">
+
+                        <div class="PhoneHeaderOverlay">
+                        </div>
+                        <label for="menu_control" class="menuBtn">
+                            <div class="burgericon" id="burgericon">
+                                <img class="burgertop" src="./burger_icon/burger_top.svg" alt="">
+                                <div class="firstline"></div>
+                                <div class="secondline" id="secondline"></div>
+                                <div class="thirdline"></div>
+                                <img class="burgerbottom" src="./burger_icon/burger_bottom.svg" alt="">
+                            </div>
+                        </label>
+                    </div>
+                    <div class="left">
+                        <a href="./">首頁</a>
+                        <a href="./gnb_aboutpage.html">關於我們</a>
+                        <a href="./gnb_news.html">最新消息</a>
+                    </div>
+                    <div class="middle">
+                        <a href="./">
+                            <img class="logo" src="./gnb_Logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="right">
+                        <a href="./gnb_menu.html">美味餐點</a>
+                        <a href="./gnb_location.html">位置與聯繫</a>
+                        <div class="headerorder">
+                            <a href="./gnb_ordernow.html" class="">立即點餐</a>
+                        </div>
+                        <div class="icons">
+                            <div class="usericon" id="usericon">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M399 384.2C376.9 345.8 335.4 320 288 320l-64 0c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z" />
+                                </svg>
+
+                            </div>
+                            <div class="carticon">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path
+                                            d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="slogan">
+                <span class="line1">Dive into Burgers</span>
+                <span class="line2">with Your Lover</span>
+            </h1>
+            <div class="bannerfoodpic container">
+                <div class="orderblue">
+                    <img src="/icon/wow_blue.png" alt="">
+                    <a href="./gnb_ordernow.html">ORDER NOW</a>
+                </div>
+                <img class="foodpic1" src="/photo/banner_fries.png" alt="">
+                <img class="foodpic2" src="/photo/banner_burger.png" alt="">
+                <img class="foodpic3" src="/photo/banner_drink.png" alt="">
+            </div>
+            <div class="redbox"></div>
+        </div>
+    </section>
+
+    <!-- aboutus -->
+    <section class="aboutus">
+        <div class="container">
+            <div class="abouttitle">
+                <img class="aboutlogo" src="/photo/buger1.png" alt="">
+                <h1>ABOUT US</h1>
+            </div>
+            <div class="aboutpic">
+                <img class="aboutpic1" src="/photo/aboutpic1.png" alt="">
+                <img class="aboutpic2" src="/photo/aboutpic2.jpg" alt="">
+                <img class="aboutpic3" src="./photo/aboutpic3.png" alt="">
+                <img class="aboutpic4" src="/photo/aboutpic4_fries.png" alt="">
+            </div>
+            <div class="aboutwords">
+                <div class="text">
+                    <h2>— Since 2018</h2>
+                    <br>
+                    <p>Good Night
+                        Burger為完美漢堡而生。我們堅持職人精神，每日手打安格斯牛多汁肉排，搭配鬆軟的特製麵包與秘製醬汁。我們不只是一家漢堡店，更是一個分享美味與快樂的所在。從嚴選食材到溫暖的用餐氛圍，誠摯邀請您來品嚐這份講究的純粹。
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="learnmore">
+            <a href="./gnb_aboutpage.html">LEARN MORE</a>
+            <img src="/icon/wow_yellow.png" alt="">
+        </div>
+
+
+    </section>
+
+
+    <!-- news -->
+
+    <section class="newssection">
+
+        <div class="container">
+            <div class="newstext">
+                <div class="newstitle">
+                    <h1>NEWS</h1>
+                </div>
+                <div class="newsbox">
+                    <div class="newsmore">
+                        <a href="./gnb_news.html">MORE</a>
+                        <svg class="morearrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path
+                                d="M566.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l434.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                        </svg>
+
+                    </div>
+                    <div class="newslist">
+                        <div class="newslistbig">
+                            <span class="tag">新品</span>
+                            <span class="date">2025.10.20</span>
+                        </div>
+                        <span class="text">迎接聖誕節預備備!期間限定烤雞堡!!!!!</span>
+                        <div class="news-righticon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M566.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l434.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="newslist">
+                        <div class="newslistbig">
+                            <span class="tag">快訊</span>
+                            <span class="date">2025.10.15</span>
+                        </div>
+                        <span class="text">萬聖節快樂!!南瓜奶昔限時買一送一</span>
+                        <div class="news-righticon">
+                            <svg class="morearrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M566.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l434.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="newslist">
+                        <div class="newslistbig">
+                            <span class="tag">公告</span>
+                            <span class="date">2025.10.08</span>
+                        </div>
+                        <span class="text">店內員工聚餐，雙十節公休一天!!</span>
+                        <div class="news-righticon">
+                            <svg class="morearrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M566.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l434.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                            </svg>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+    </section>
+
+    <!-- 菜單列表 -->
+    <div class="product">
+        <div class="producttitle">
+            <!-- <img class="wowicon" src="/icon/wow_blue.png" alt=""> -->
+            <h1>CHECK OUR PRODUCTS</h1>
+        </div>
+        <div class="swiper-container-wrapper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="burger-card">
+                            <div class="img-box">
+                                <img src="./menuphoto/burger/beefburger.png" alt="">
+                            </div>
+                            <div class="text-box">
+                                <h3>招牌牛肉漢堡</h3>
+                                <p>品嚐最純粹的經典！100% 純牛肉手打製成的肉排，趁熱將這塊滋滋作響的肉排，夾入我們特別烘烤過、口感鬆軟且帶有芝麻香氣的麵包中。紮實的美味衝擊!正等您來品嚐。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="burger-card">
+                            <div class="img-box">
+                                <img src="./menuphoto/burger/beefcz.png" alt="">
+                            </div>
+                            <div class="text-box">
+                                <h3>牛肉起司漢堡</h3>
+                                <p>濃郁的完美交融！融化的起司包裹住手打牛肉排。起司的鹹香與牛肉的鮮美在口中完美結合，是起司愛好者不容錯過的選擇。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="burger-card">
+                            <div class="img-box">
+                                <img src="./menuphoto/burger/doublepatty.png" alt="">
+                            </div>
+                            <div class="text-box">
+                                <h3>雙層牛肉漢堡</h3>
+                                <p>使用兩片新鮮手打牛肉排，濃郁的肉汁緊緊鎖在其中﹐創造出無法比擬的厚實口感，雙倍的滿足，獻給無肉不歡的您！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="burger-card">
+                            <div class="img-box">
+                                <img src="./menuphoto/burger/baconbeef.png" alt="">
+                            </div>
+                            <div class="text-box">
+                                <h3>培根牛肉堡</h3>
+                                <p>多汁的牛肉排與香煎至金黃酥脆的蘋果木燻培根。與牛肉的鮮甜形成絕妙的平衡，為漢堡注入了強烈的個性。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="burger-card">
+                            <div class="img-box">
+                                <img src="./menuphoto/burger/baconcheese.png" alt="">
+                            </div>
+                            <div class="text-box">
+                                <h3>培根牛肉起司堡</h3>
+                                <p>豪華的終極享受！現煎手打肉排與香濃起司，再疊加蘋果木燻培根，三種風味帶來無與倫比的滿足感。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="burger-card">
+                            <div class="img-box">
+                                <img src="./menuphoto/burger/friedck.png" alt="">
+                            </div>
+                            <div class="text-box">
+                                <h3>香脆雞腿堡</h3>
+                                <p>獨門香料醃製的去骨雞腿排，金黃酥脆的外皮完美鎖住所有肉汁。搭配鬆軟的烤麵包與新鮮生菜層次豐富。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="swiper-button-next">
+                <svg class="rightarrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path
+                        d="M535.1 342.6C547.6 330.1 547.6 309.8 535.1 297.3L375.1 137.3C362.6 124.8 342.3 124.8 329.8 137.3C317.3 149.8 317.3 170.1 329.8 182.6L467.2 320L329.9 457.4C317.4 469.9 317.4 490.2 329.9 502.7C342.4 515.2 362.7 515.2 375.2 502.7L535.2 342.7zM183.1 502.6L343.1 342.6C355.6 330.1 355.6 309.8 343.1 297.3L183.1 137.3C170.6 124.8 150.3 124.8 137.8 137.3C125.3 149.8 125.3 170.1 137.8 182.6L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7z" />
+                </svg>
+            </div>
+            <div class="swiper-button-prev">
+                <svg class="leftarrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path
+                        d="M105.4 297.4C92.9 309.9 92.9 330.2 105.4 342.7L265.4 502.7C277.9 515.2 298.2 515.2 310.7 502.7C323.2 490.2 323.2 469.9 310.7 457.4L173.3 320L310.6 182.6C323.1 170.1 323.1 149.8 310.6 137.3C298.1 124.8 277.8 124.8 265.3 137.3L105.3 297.3zM457.4 137.4L297.4 297.4C284.9 309.9 284.9 330.2 297.4 342.7L457.4 502.7C469.9 515.2 490.2 515.2 502.7 502.7C515.2 490.2 515.2 469.9 502.7 457.4L365.3 320L502.6 182.6C515.1 170.1 515.1 149.8 502.6 137.3C490.1 124.8 469.8 124.8 457.3 137.3z" />
+                </svg>
+            </div>
+            <div class="viewmenu">
+                <a href="./gnb_menu.html">VIEW WHOLE MENU</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <section class="location">
+        <div class="lotitle">
+            <h3>WHERE ARE WE</h3>
+            <div class="redicon">
+                <img class="wowredleft" src="/icon/wow_red.png" alt="">
+                <img class="wowredright" src="/icon/wow_red.png" alt="">
+            </div>
+
+        </div>
+
+
+        <!-- 左邊資訊格子 -->
+        <div class="container">
+            <div class="location-content">
+                <div class="contactleftbox">
+                    <div class="lobox">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path
+                                    d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
+                            </svg>
+                        </div>
+                        <div class="txt">
+                            <span class="boxtitle">Location</span>
+                            <p>臺北市中山區南京東路三段219號</p>
+                        </div>
+                    </div>
+
+                    <div class="lobox">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M464 256a208 208 0 1 1 -416 0 208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0 256 256 0 1 0 -512 0zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+                            </svg>
+                        </div>
+                        <div class="txt">
+                            <span class="boxtitle">Hours</span>
+                            <p>MON-SUN<br>
+                                11:30 - 14:30(最後點餐時間13:30)<br>
+                                17:00 - 22:00(最後點餐時間21:00)</p>
+                        </div>
+                    </div>
+
+                    <div class="lobox">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z" />
+                            </svg>
+                        </div>
+                        <div class="txt">
+                            <span class="boxtitle">Contact</span>
+                            <p>TEL : (02) 2712-0589<br>
+                                EMAIL : hello@goodnightburger.com.tw</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 右邊地圖 -->
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4685758815835!2d121.5431826!3d25.052102699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abddfba46051%3A0xfc24888bfbf91c8f!2zMTA0OTHoh7rljJfluILkuK3lsbHljYDljZfkuqzmnbHot6_kuInmrrUyMTnomZ8!5e0!3m2!1szh-TW!2stw!4v1763632503766!5m2!1szh-TW!2stw"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <img class="mapham" src="/background/mapham.svg" alt="">
+        <img class="mapcz" src="/background/mapcz1.png" alt="">
+        </div>
+        </div>
+
+    </section>
+
+    <div class="footer">
+        <div class="footerinfo">
+            <img src="gnb_Logo.png" alt="">
+            <div class="footertext">
+                <p>Good Night Burger</p>
+                <p>臺北市中山區南京東路三段219號</p>
+                <p>TEL:(02) 2712-0589</p>
+                <p>EMAIL : hello@goodnightburger.com.tw</p>
+            </div>
+        </div>
+
+        <div class="social">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l98.2 0 0-145.8-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 145.8 129 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
+        </div>
+    </div>
+    <div class="newsBottomCard" id="newsbigcard">
+        <div class="container closebox">
+            <div class="closeicon" id="closebottom">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zM167 167c9.4-9.4 24.6-9.4 33.9 0l55 55 55-55c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-55 55 55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55-55 55c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l55-55-55-55c-9.4-9.4-9.4-24.6 0-33.9z" />
+                </svg>
+            </div>
+            <div class="bigcard" id="bigcard">
+
+                <img src="./newspic/news1_burger.png" alt="">
+                <div class="bigcardtexttitle">
+                    <p class="bigcardtag">新品上市</p>
+                    <p class="bigcarddate">2025.11.05</p>
+                </div>
+
+                <div class="bigcardtext">
+                    時光匆匆~~~~不知不覺又到了一年中的尾聲!!<br>Good Night
+                    Burger推出聖誕節限定烤雞堡，超級特別神秘烤醬與各位第一次見面!!一起邊享用好吃的烤雞堡來迎接瑪麗亞凱莉<br><br>(ㄏ￣▽￣)ㄏ ㄟ(￣▽￣ㄟ)
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="userloginbottom" id="userloginbottom">
+        <div class="usercard" id="usercard">
+            <div class="loginbigcard" id="loginbigcard">
+                <div class="usercloseicon" id="userclosebottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zM167 167c9.4-9.4 24.6-9.4 33.9 0l55 55 55-55c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-55 55 55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55-55 55c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l55-55-55-55c-9.4-9.4-9.4-24.6 0-33.9z" />
+                    </svg>
+                </div>
+                <div class="login_head_title ">
+                    <div class="loginblack" id="loginblock"></div>
+                    <div class="login" id="loginword">
+                        <h1>登入會員</h1>
+                    </div>
+                    <div class="loginBurgericon" id="sighupword">
+                        <img src="./icon/login_fries.svg" alt="">
+                    </div>
+                    <div class="signup" id="signupword">
+                        <p>立即註冊</p>
+                    </div>
+                </div>
+
+
+                <form class="namelist">
+                    <div class="list">
+                        <label>帳號 / Email<br><br>
+                            <input class="idbox" type="text" placeholder="請輸入帳號">
+                        </label>
+                    </div>
+                    <div class="list">
+                        <label>密碼<br><br>
+                            <input class="passwordbox" type="password" placeholder="請輸入密碼">
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-btn" id="submit-btn">登入</button>
+                    <button type="submit" class="signup-btn" id="signup-btn">註冊</button>
+                </form>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./gnb.js"></script>
+    <script src="./gnbSwiper.js"></script>
+</body>
+
+</html>

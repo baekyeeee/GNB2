@@ -1,0 +1,1374 @@
+@media screen and (max-width: 1200px) {
+    .aboutpic1 {
+        width: 20%;
+        border-radius: 20px;
+        position: absolute;
+        top: 120px;
+    }
+
+    .aboutpic2 {
+        width: 20%;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 15%;
+        z-index: 1;
+    }
+
+    .aboutpic3 {
+        width: 20%;
+        border-radius: 20px;
+        position: absolute;
+        top: 0px;
+        left: 30%;
+    }
+
+    .aboutpic4 {
+        position: absolute;
+        width: 20%;
+        top: 200px;
+        left: 40%;
+        transform: rotate(-30deg);
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .prepare {
+        margin-top: 550px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .menuburgergrid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .header {
+        height: 50px;
+    }
+
+    .headerburger {
+        display: flex;
+    }
+
+    .PhoneHeaderOverlay {
+        display: flex;
+        position: fixed;
+        width: 300px;
+        height: 2000%;
+        background-color: #336FA8;
+        opacity: 95%;
+        position: absolute;
+        right: -400px;
+        top: -20px;
+        transition: all .3s;
+    }
+
+    #menu_control:checked~.headerburger .PhoneHeaderOverlay {
+        right: -70px;
+
+
+    }
+
+
+    .middle img {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .left,
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        position: absolute;
+        top: 120px;
+        /* right: 70px; */
+        gap: 20px;
+    }
+
+
+
+    .left {
+        width: auto;
+        right: -110px;
+        transition: all .3s;
+
+    }
+
+    .right {
+        width: auto;
+        top: 230px;
+        right: -150px;
+        transition: all .3s;
+    }
+
+    .icons {
+        top: 30px;
+        right: 27px;
+    }
+
+    #menu_control:checked~.left {
+        right: 80px;
+
+    }
+
+    #menu_control:checked~.right {
+        right: 65px;
+
+    }
+
+    .newsicon2 img {
+        width: 15%;
+        right: 10%;
+        top: 95%;
+    }
+
+    .bannercard h1 {
+        font-size: 70px;
+        top: 70%;
+
+    }
+
+    .bannercard_findus h1 {
+        font-size: 70px;
+
+    }
+
+    .productcard h1 {
+        font-size: 80px;
+        color: #336FA8;
+        margin: auto;
+        font-weight: 700;
+    }
+
+    .newscard {
+        width: 100%;
+    }
+
+    .abouttitle h1 {
+        font-size: 80px;
+    }
+
+    .aboutwords .text {
+        width: 250px;
+    }
+
+    .aboutpic4 {
+        top: 170px;
+    }
+
+    .learnmore {
+        right: 7%;
+    }
+
+    .learnmore a {
+        font-size: 14px;
+    }
+
+    .newstitle h1 {
+        font-size: 80px;
+        text-shadow:
+            -8px 5px 0px rgb(248, 175, 0),
+            -16px 10px 0px rgba(51, 111, 168);
+    }
+
+    .newsbox {
+        top: 20px;
+    }
+
+    .newslist .text {
+        font-size: 15px;
+    }
+
+    .newsmore {
+        top: 5%;
+        right: 13%;
+    }
+
+    .news-righticon svg {
+        left: 300px;
+    }
+
+    .bigcard {
+        height: 550px;
+    }
+
+    .bigcardtag {
+        font-size: 20px;
+    }
+
+    .bigcarddate {
+        font-size: 14px;
+    }
+
+    .text-box h3 {
+        width: 200px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .text-box p {
+        width: 250px;
+    }
+
+    .swiper-button-next svg,
+    .swiper-button-prev svg {
+        width: 50px;
+    }
+
+    .swiper-button-prev {
+        left: 15px;
+
+    }
+
+    .swiper-button-next {
+        right: 15px;
+    }
+
+    .viewmenu {
+        width: 200px;
+    }
+
+    .viewmenu a {
+        font-size: 18px;
+        width: 100px;
+    }
+
+    .lotitle h3 {
+        font-size: 70px;
+    }
+
+    .redicon .wowredright {
+        right: 8%;
+        top: 50px;
+    }
+
+    .redicon .wowredleft {
+        left: 8%;
+        top: 50px;
+    }
+
+    .location-content {
+        flex-direction: column;
+        gap: 25px;
+
+    }
+
+    .contactleftbox {
+        width: auto;
+    }
+
+    .location {
+        height: 1050px;
+    }
+
+    .txt {
+        font-size: 15px;
+    }
+
+    .txt .boxtitle {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+    .mapham {
+        top: 10%;
+    }
+
+    .mapcz {
+        top: 25%;
+    }
+
+    .introbox {
+        height: 300px;
+    }
+
+    .introbox2 {
+        height: 300px;
+    }
+
+    .story-img {
+        width: 450px;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .intro1 .story-text {
+        font-size: 17px;
+        position: relative;
+        top: 102px;
+    }
+
+    .intro2 .story-text {
+        font-size: 17px;
+        position: relative;
+        top: 80px;
+    }
+
+    .title h1 {
+        font-size: 70px;
+    }
+
+    .title h3 {
+        font-size: 30px;
+    }
+
+    .blueword {
+        font-size: 45px;
+    }
+
+    .redword {
+        font-size: 45px;
+    }
+
+    .grid {
+        height: 700px;
+    }
+
+    .middleburger img {
+        height: 100%;
+    }
+
+    .grid .p1,
+    .p2,
+    .p3 {
+        width: 220px;
+        font-size: 17px;
+    }
+
+    .exmenu {
+        top: 550px;
+    }
+
+    .endintro img {
+        width: 350px;
+    }
+
+    .endtext {
+        width: 400px;
+        font-size: 18px;
+    }
+
+    .detailbox h1 {
+        font-size: 60px;
+        text-shadow:
+            -7px 5px 0px #CD2D1A,
+            -12px 10px 0px rgba(51, 111, 168);
+        font-weight: 600;
+    }
+
+    .ContactTitle h1 {
+        font-size: 60px;
+        font-weight: 600;
+        text-shadow:
+            -8px 5px 0px #CD2D1A,
+            -13px 10px 0px rgba(51, 111, 168);
+    }
+
+    .findusbox {
+        align-items: end;
+        gap: 0;
+    }
+
+    .detailbox {
+        width: 48%;
+        order: 1;
+        /* 排第 1 */
+    }
+
+    .map {
+        width: 48%;
+        /* 縮小寬度跟 Detailbox 並排 */
+        order: 2;
+        /* 排第 2 (關鍵！) */
+        margin-top: 0;
+        /* 拿掉電腦版的上距，對齊 Detailbox */
+        margin-bottom: 30px;
+    }
+
+    .contactbox {
+        width: 100%;
+        /* 變寬，強迫換行到下方 */
+        order: 3;
+        /* 排第 3 (關鍵！) */
+        margin-top: 20px;
+    }
+
+    .map iframe {
+        position: static;
+        top: 20px;
+        width: 100%;
+        height: 400px;
+        /* 高度可視平板高度微調 */
+    }
+
+    .footertext {
+        font-size: 13px;
+    }
+
+    .closeicon {
+        position: absolute;
+        top: -15px;
+        left: 70%;
+    }
+
+    .loginbigcard {
+        width: 350px;
+        height: 420px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .prepare {
+        margin-top: 530px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        grid-template-rows: auto auto auto;
+        grid-auto-flow: dense;
+        height: auto;
+        column-gap: 15px;
+        row-gap: 30px;
+        padding: 0 20px;
+        margin-top: 50px;
+    }
+
+
+    .middleburger {
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .middleburger img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+
+
+    .grid .p1 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        font-size: 16px;
+        text-align: left;
+        align-content: center;
+    }
+
+
+    .p2 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+        align-content: center;
+    }
+
+
+    .p3 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+        align-content: center;
+    }
+
+    .exmenu {
+        position: relative;
+        grid-column: 1 / 3;
+        /* 跨滿兩欄 */
+        grid-row: 4 / 5;
+        /* 放在第 4 列 */
+        top: auto;
+        right: auto;
+        transform: none;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .story-img {
+        bottom: 100px;
+
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .header {
+        background-color: pink;
+    }
+
+    .slogan {
+        font-size: 32px;
+    }
+
+    .line1 {
+        transform: translateX(-40%);
+    }
+
+    .line2 {
+        transform: translatex(40%);
+    }
+
+    .bannerfoodpic {
+        height: 150px;
+        bottom: 20px;
+    }
+
+    .bannercard h1 {
+        font-size: 50px;
+        top: 70%;
+        right: 5%;
+    }
+
+    .bannercard_findus h1 {
+        font-size: 50px;
+        top: 40%;
+
+    }
+
+    .foodpic2 {
+        width: 130px;
+        right: 15%;
+        top: 34%;
+    }
+
+    .orderblue {
+        left: 4%;
+    }
+
+    .orderblue a {
+        font-size: 17px;
+    }
+
+    .redbox {
+        height: 100px;
+        height: 130px;
+        background-size: 100px 100px;
+    }
+
+    .abouttitle h1 {
+        font-size: 50px;
+        text-shadow:
+            -5px 2px 0px rgb(248, 175, 0),
+            -10px 6px 0px rgba(51, 111, 168);
+    }
+
+    .text {
+        font-size: 12px;
+        width: 140px;
+    }
+
+    .aboutwords {
+        right: 0;
+    }
+
+    .aboutpic1 {
+        width: 25%;
+        top: 150px;
+    }
+
+    .aboutpic2 {
+        width: 25%;
+        top: 100px;
+    }
+
+    .aboutpic3 {
+        width: 25%;
+        top: 50px;
+    }
+
+    .aboutpic4 {
+        width: 25%;
+        top: 140px;
+        transform: rotate(-40deg);
+    }
+
+    .abouttitle h1 {
+        margin-top: 120px;
+    }
+
+    .aboutwords .text {
+        width: 145px;
+        font-size: 15px;
+    }
+
+    .learnmore {
+        top: 75%;
+        right: -1%;
+    }
+
+    .learnmore a {
+        font-size: 11px;
+    }
+
+    .learnmore img {
+        width: 20%;
+        transform: scaleX(-1) rotate(-20deg);
+    }
+
+    .newstitle h1 {
+        font-size: 70px;
+        text-shadow:
+            -5px 2px 0px rgb(248, 175, 0),
+            -10px 6px 0px rgba(51, 111, 168);
+    }
+
+
+    .newsbox {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        border-radius: 20px;
+        top: 130px;
+    }
+
+    .news-righticon svg {
+        left: 270px;
+        bottom: 35px;
+    }
+
+    .newsmore {
+        top: -2%;
+        right: 10%;
+    }
+
+    .bigcard {
+        height: 550px;
+    }
+
+    .bigcardtag {
+        font-size: 20px;
+    }
+
+    .bigcarddate {
+        font-size: 14px;
+    }
+
+
+    .producttitle h1 {
+        font-size: 35px;
+        text-shadow:
+            -5px 2px 0px rgb(248, 175, 0),
+            -10px 6px 0px rgba(51, 111, 168);
+    }
+
+
+    .wowicon {
+        width: 30px;
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+        transform: rotate(-10deg);
+    }
+
+    .viewmenu {
+        width: 200px;
+    }
+
+    .viewmenu a {
+        font-size: 18px;
+        width: 100px;
+    }
+
+    .lotitle h3 {
+        font-size: 50px;
+    }
+
+    .redicon img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .redicon .wowredright {
+        right: 4%;
+        top: 45px;
+    }
+
+    .redicon .wowredleft {
+        left: 3%;
+        top: 45px;
+    }
+
+    .location-content {
+        flex-direction: column;
+        gap: 25px;
+
+    }
+
+    .contactleftbox {
+        width: auto;
+    }
+
+    .location {
+        height: 900px;
+    }
+
+    .txt {
+        font-size: 15px;
+    }
+
+    .txt .boxtitle {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .mapham,
+    .mapcz {
+        display: none;
+    }
+
+    .introbox {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .introbox2 {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .story-img {
+        width: 350px;
+        margin: auto;
+        position: absolute;
+
+    }
+
+    .intro1 .story-text {
+        font-size: 16px;
+        top: 150px;
+        text-align: center;
+    }
+
+    .intro2 .story-text {
+        font-size: 17px;
+        position: relative;
+        top: 150px;
+        text-align: center;
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .title h3 {
+        font-size: 20px;
+    }
+
+    .blueword {
+        font-size: 30px;
+    }
+
+    .redword {
+        font-size: 30px;
+    }
+
+    .endbox {
+        position: relative;
+        gap: 20px;
+        display: flex;
+        height: 700px;
+    }
+
+    .endintro img {
+        width: 300px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .endtext {
+        width: 300px;
+        font-size: 18px;
+        position: absolute;
+        bottom: 50px;
+        text-align: center;
+    }
+
+    /* 導覽列調整 */
+    .productsnav {
+        width: 90%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .productsnav a::before {
+        display: none;
+    }
+
+    /* 網格變成單欄 */
+    .menuburgergrid {
+        grid-template-columns: 1fr;
+        /* 這裡改成 1 欄 */
+        gap: 50px;
+    }
+
+    .menucard {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .footer img {
+        width: 13%;
+    }
+
+    /* .header {
+        display: none;
+    } */
+
+    .newsicon2 img {
+        width: 40%;
+        right: 10%;
+        top: 95%;
+    }
+
+
+
+    .newsgrid {
+        margin: auto;
+    }
+
+    .newscard {
+        width: 60%;
+        transform: translateX(33%);
+    }
+
+    .newscard:hover {
+        transform: translateX(33%);
+    }
+
+    .bigcard {
+        width: 60%;
+    }
+
+    .closeicon {
+        width: 8%;
+        position: absolute;
+        left: 70%;
+    }
+
+    .social {
+        width: 50px;
+        gap: 10px;
+        right: 5%;
+        bottom: 10%;
+    }
+
+    .detailbox {
+        width: 100%;
+        /* 佔滿整行 */
+        order: 1;
+        margin-bottom: 30px;
+        /* 增加與地圖的距離 */
+        align-items: center;
+    }
+
+    .map {
+        width: 100%;
+        /* 佔滿整行 */
+        order: 2;
+        /* 維持在中間 */
+        margin-bottom: 30px;
+        /* 增加與表單的距離 */
+    }
+
+    .map iframe {
+        height: 300px;
+        /* 手機版地圖高度不用太高 */
+    }
+
+    .contactbox {
+        width: 100%;
+        /* 佔滿整行 */
+        order: 3;
+        margin-bottom: 30px;
+    }
+
+    .ContactTitle {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .title h1 {
+        font-size: 40px;
+    }
+
+    .title h3 {
+        font-size: 15px;
+    }
+
+    .blueword {
+        font-size: 25px;
+    }
+
+    .redword {
+        font-size: 25px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 30px;
+        padding: 0 30px;
+        height: auto;
+        row-gap: 20px;
+    }
+
+
+    .middleburger {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .middleburger img {
+        height: 100%;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .grid .p1,
+    .p2,
+    .p3 {
+        width: 90%;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: left;
+        position: relative;
+    }
+
+    .grid .p1 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        border: 3px solid #F8AF00;
+    }
+
+    .p2 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        justify-self: end;
+        border: 3px solid #4CAF50;
+    }
+
+
+    .p3 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        border: 3px solid #CD2D1A;
+    }
+
+    .exmenu {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .story-img {
+        bottom: 105px;
+    }
+
+    .intro1 .story-text {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .intro2 .story-text {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .redicon img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .redicon .wowredleft {
+
+        top: 55px;
+    }
+
+    .redicon .wowredright {
+        right: 25px;
+        top: 55px;
+    }
+
+    .lotitle h3 {
+        font-size: 40px;
+        text-shadow:
+            -3px 5px 0px rgb(248, 175, 0),
+            -6px 10px 0px rgba(51, 111, 168);
+    }
+
+    .newsbox {
+
+        width: 90%;
+        height: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tag {
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .date {
+        font-size: 12px;
+    }
+
+    .news .text {
+        font-size: 18px;
+    }
+
+    .news-righticon svg {
+        left: 80%;
+        top: -50px;
+        width: 20px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .header {
+        background-color: coral;
+    }
+
+
+
+    .middle img {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    /* --- 修正首頁圖片與文字 --- */
+    .bannerpic {
+        width: 100%;
+        height: 500px;
+    }
+
+    /* 字體修正：原本 5px 太小了，這裡改回正常一點 */
+    .slogan {
+        font-size: 25px;
+        line-height: 2;
+    }
+
+    .line1 {
+        transform: translateX(-20%);
+
+    }
+
+    .line2 {
+        transform: translatex(23%);
+    }
+
+    .bannerfoodpic {
+        top: 50px;
+        right: 23px;
+    }
+
+
+    .orderblue {
+        left: 75px;
+        top: -110px;
+    }
+
+    .orderblue a {
+        width: 100px;
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .aboutus {
+        height: 500px;
+    }
+
+    .abouttitle h1 {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .aboutpic1 {
+        display: none;
+    }
+
+    .aboutpic2 {
+        width: 30%;
+        left: 0px;
+        top: 130px;
+    }
+
+    .aboutpic3 {
+        width: 30%;
+        left: 20%;
+        top: 50px;
+    }
+
+    .aboutpic4 {
+        top: 200px;
+        left: 20%;
+        z-index: 5;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .text p {
+        width: 150px;
+        height: auto;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 20px;
+
+    }
+
+    .learnmore {
+        top: 70%;
+        left: 50%;
+    }
+
+    .learnmore a {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+    .social {
+        width: 45px;
+        bottom: 0%;
+    }
+
+    .footertext {
+        font-size: 10px;
+    }
+
+    .footerinfo {
+        gap: 10px;
+    }
+
+    .endtext {
+        width: 95%;
+        font-size: 15px;
+        bottom: 90px;
+
+    }
+
+    .endintro img {
+        margin-bottom: 100px;
+    }
+
+    .exmenu a {
+        font-size: 20px;
+    }
+
+    .prepare {
+        margin-top: 450px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .title h3 {
+        font-size: 15px;
+    }
+
+    .blueword {
+        font-size: 20px;
+    }
+
+    .redword {
+        font-size: 20px;
+    }
+
+    .intro2 {
+        top: -80px;
+    }
+
+    .story-img {
+        width: 100%;
+    }
+
+    .aboutlogo {
+        width: 25%;
+        margin-top: 0px;
+    }
+
+    .lobox {
+        width: 90%;
+        margin: auto;
+        gap: 5px;
+        padding: 18px 35px;
+    }
+
+    .lobox svg {
+        width: 20px;
+    }
+
+    .redicon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .redicon .wowredleft {
+        top: 50px;
+    }
+
+    .redicon .wowredright {
+        right: 10px;
+        top: 50px;
+    }
+
+    .lotitle h3 {
+        font-size: 35px;
+        font-weight: 700;
+        text-shadow:
+            -3px 5px 0px rgb(248, 175, 0),
+            -6px 10px 0px rgba(51, 111, 168);
+    }
+
+    .swiper-button-next svg,
+    .swiper-button-prev svg {
+        width: 40px;
+    }
+
+    .swiper-button-prev {
+        left: 3px;
+        top: 150px;
+    }
+
+    .swiper-button-next {
+        right: 3px;
+        top: 150px;
+    }
+
+    .newsbox {
+
+        width: 90%;
+        height: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tag {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+
+    .news .text {
+        font-size: 15px;
+    }
+
+    .news-righticon svg {
+        left: 80%;
+        top: -60px;
+        width: 20px;
+    }
+
+    .header {
+        background-color: lightgreen;
+    }
+
+    .aboutpic1 {
+        top: 300px;
+    }
+
+    .aboutpic2 {
+        width: 30%;
+        left: -20px;
+        top: 150px;
+    }
+
+    .aboutpic3 {
+        width: 30%;
+        left: 0;
+        top: 70px;
+    }
+
+    .aboutpic4 {
+        top: 150px;
+        left: 15%;
+        z-index: 5;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .text p {
+        width: 150px;
+        height: auto;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 20px;
+        line-height: 1.3;
+    }
+
+
+    .foodpic2 {
+        right: 18%;
+    }
+
+}

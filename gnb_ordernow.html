@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>gnb_OrderNow</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cssreset.css">
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./gnbcss.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="bannerphoto">
+        <div class="header" id="mainNav">
+            <input type="checkbox" id="menu_control">
+            <div class="headerburger">
+
+                <div class="PhoneHeaderOverlay">
+                </div>
+                <label for="menu_control" class="menuBtn">
+                    <div class="burgericon" id="burgericon">
+                        <img class="burgertop" src="./burger_icon/burger_top.svg" alt="">
+                        <div class="firstline"></div>
+                        <div class="secondline"></div>
+                        <div class="thirdline"></div>
+                        <img class="burgerbottom" src="./burger_icon/burger_bottom.svg" alt="">
+                    </div>
+                </label>
+            </div>
+            <div class="left">
+                <a href="./index.html">首頁</a>
+                <a href="./gnb_aboutpage.html">關於我們</a>
+                <a href="./gnb_news.html">最新消息</a>
+            </div>
+            <div class="middle">
+                <a href="./">
+                    <img class="logo" src="./gnb_Logo.png" alt="">
+                </a>
+            </div>
+            <div class="right">
+                <a href="./gnb_menu.html">美味餐點</a>
+                <a href="./gnb_location.html">位置與聯繫</a>
+                <div class="headerorder">
+                    <a href="./gnb_ordernow.html" class="">立即點餐</a>
+                </div>
+                <div class="icons">
+                    <div class="usericon" id="usericon">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M399 384.2C376.9 345.8 335.4 320 288 320l-64 0c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="carticon" id="carticon">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bannercard">
+            <h1>ORDER
+                <br>NOW
+            </h1>
+            <img class="main" src="/bannerpic/ordernow_bannerpic.png" alt="">
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="cartbox container">
+        <h1>線上點餐</h1>
+
+
+        <div class="orderform ">
+
+            <div class="ordertimelist">
+
+                <label>取餐日期</label>
+                <input type="date">
+                <label>取餐時間</label>
+                <input type="time" list="valid-times">
+                <datalist id="valid-times">
+                    <option value="12:00"></option>
+                    <option value="12:30"></option>
+                    <option value="13:00"></option>
+                    <option value="13:30"></option>
+                    <option value="14:00"></option>
+
+                    <option value="17:30"></option>
+                    <option value="18:00"></option>
+                    <option value="18:30"></option>
+                    <option value="19:00"></option>
+                    <option value="19:30"></option>
+                    <option value="20:00"></option>
+                    <option value="20:30"></option>
+                    <option value="21:00"></option>
+                </datalist>
+            </div>
+
+            <div class="ordernamelist">
+
+                <label>訂購人姓名</label>
+                <input type="text">
+
+                <label>訂購人電話</label>
+                <input type="text">
+
+                <label class="pay">付款方式</label>
+                <select id="pay">
+                    <option>請選擇付款方式</option>
+                    <option>取餐付款</option>
+                    <option>線上刷卡</option>
+                </select>
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <nav class="ordernav">
+        <a href="#orderburger">BURGERS</a>
+        <a href="#ordersides">SIDES</a>
+        <a href="#orderdrinks">DRINKS</a>
+        <a href="#ordergoods">MERCHANDISE</a>
+    </nav>
+
+    <!-- 點餐漢堡 -->
+
+    <div class="container">
+        <div class="ordertitle" id="orderburger">
+            <h1>BURGERS</h1>
+        </div>
+        <div class="row orderrow">
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="招牌牛肉堡" data-price="200" data-img="./menuphoto/burger/beefburger.png"
+                    data-category="burger">
+                    <div class="orderimg">
+                        <img src="./menuphoto/burger/beefburger.png">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>招牌牛肉堡</h3><br>
+                        <p>$200</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="牛肉起司堡" data-price="215" data-img="./menuphoto/burger/beefcz.png"
+                    data-category="burger">
+                    <div class="orderimg">
+                        <img src="./menuphoto/burger/beefcz.png" alt="">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>牛肉起司堡</h3><br>
+                        <p>$215</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="雙層牛肉堡" data-price="290" data-img="./menuphoto/burger/doublepatty.png"
+                    data-category="burger">
+                    <div class="orderimg">
+                        <img src="./menuphoto/burger/doublepatty.png" alt="">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>雙層牛肉堡</h3><br>
+                        <p>$290</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="培根牛肉堡" data-price="220" data-img="./menuphoto/burger/baconbeef.png"
+                    data-category="burger">
+                    <div class="orderimg">
+                        <img src="./menuphoto/burger/baconbeef.png" alt="">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>培根牛肉堡</h3><br>
+                        <p>$220</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="培根牛肉起司堡" data-price="235"
+                    data-img="./menuphoto/burger/baconcheese.png" data-category="burger">
+                    <div class="orderimg">
+                        <img src="./menuphoto/burger/baconcheese.png" alt="">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>培根牛肉起司堡</h3><br>
+                        <p>$235</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="香脆雞腿堡" data-price="200" data-img="./menuphoto/burger/friedck.png"
+                    data-category="burger">
+                    <div class="orderimg">
+                        <img src="./menuphoto/burger/friedck.png">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>香脆雞腿堡</h3><br>
+                        <p>$200</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 點餐薯條 -->
+    <div class="container">
+        <div class="ordertitle" id="ordersides">
+            <h1>SIDES</h1>
+        </div>
+        <div class="row orderrow">
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="經典細薯" data-price="80" data-img="./menuphoto/side/thin_fries.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/side/thin_fries.png">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>經典細薯</h3><br>
+                        <p>$80</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="厚切脆薯" data-price="90" data-img="./menuphoto/side/thick_fries.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/side/thick_fries.png">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>厚切脆薯</h3><br>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="金黃地瓜條" data-price="80" data-img="./menuphoto/side/yam_fries.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/side/yam_fries.png">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>金黃地瓜條</h3><br>
+                        <p>$80</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 點餐飲料 -->
+
+    <div class="container">
+        <div class="ordertitle" id="orderdrinks">
+            <h1>DRINKS</h1>
+        </div>
+        <div class="row orderrow">
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="可口可樂" data-price="60" data-img="./menuphoto/drinks/drink_coke.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/drinks/drink_coke.png" style="width: 80%;">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>可口可樂</h3>
+                        <p style="font-size: 15px;">Original/Zero Sugar
+                        <p><br>
+                        <p> $60</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="雪碧" data-price="60" data-img="./menuphoto/drinks/drink_spirt.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/drinks/drink_spirt.png" style="width: 80%;">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>雪碧</h3>
+                        <p style="font-size: 15px;">Original/Lime
+                        <p><br>
+                        <p> $60</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="雀巢檸檬紅茶" data-price="60"
+                    data-img="./menuphoto/drinks/drink_nestle.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/drinks/drink_nestle.png" style="width: 80%;">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>雀巢檸檬紅茶</h3><br>
+                        <p> $60</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="香草奶昔" data-price="120"
+                    data-img="./menuphoto/drinks/drink_vanilashake.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/drinks/drink_vanilashake.png" style="width: 80%;">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>香草奶昔</h3><br>
+                        <p> $120</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="草莓奶昔" data-price="120"
+                    data-img="./menuphoto/drinks/drink_strawshake.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/drinks/drink_strawshake.png" style="width: 80%;">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>草莓奶昔</h3><br>
+                        <p> $120</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="無糖紅茶" data-price="60"
+                    data-img="./menuphoto/drinks/drink_blacktea.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/drinks/drink_blacktea.png" style="width: 80%;">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>無糖紅茶</h3><br>
+                        <p> $60</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 周邊 -->
+
+    <div class="container">
+        <div class="ordertitle" id="ordergoods">
+            <h1>MERCHANDISE</h1>
+        </div>
+        <div class="row orderrow">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="水洗棒球老帽" data-price="590"
+                    data-img="./menuphoto/goodspic/green_cap.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/goodspic/green_cap.png">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>水洗棒球老帽</h3>
+                        <p style="font-size: 15px;">(綠/卡其)
+                        <p><br>
+                        <p> $590</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="厚磅LOGO Tee" data-price="790"
+                    data-img="./menuphoto/goodspic/white_tshirt.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/goodspic/white_tshirt.png">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>厚磅LOGO Tee</h3>
+                        <p style="font-size: 15px;">(白/黑)
+                        <p><br>
+                        <p> $790</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg-4">
+                <div class="ordercard" data-name="LOGO托特包" data-price="690" data-img="./menuphoto/goodspic/bag.png">
+                    <div class="orderimg">
+                        <img src="./menuphoto/goodspic/bag.png">
+                    </div>
+                    <div class="ordertext-box">
+                        <h3>LOGO托特包</h3><br>
+                        <p> $690</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 點餐大卡片 -->
+    <div class="modal-overlay" id="productModal">
+        <div class="modal-content">
+            <div class="ordercloseicon" id="ordercloseBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zM167 167c9.4-9.4 24.6-9.4 33.9 0l55 55 55-55c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-55 55 55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55-55 55c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l55-55-55-55c-9.4-9.4-9.4-24.6 0-33.9z" />
+                </svg>
+            </div>
+            <img id="modal-img" src="./menuphoto/burger/baconbeef.png" alt="商品大圖">
+            <div class="modal-header">
+                <h2 id="modal-title">商品名稱</h2>
+                <span class="price"> $ <span id="modal-price">0</span></span>
+            </div>
+            <div class="modal-radio" id="modal-radio">
+                <label for="">
+                    <input type="radio" name="orderop" value="0" data-text="單點" checked> 單點</label>
+                <label for="">
+                    <input type="radio" name="orderop" value="110" data-text="經典細薯套餐"> 經典細薯套餐 + $110</label>
+                <label for="">
+                    <input type="radio" name="orderop" value="120" data-text="厚切脆薯套餐"> 厚切脆薯套餐 + $120</label>
+                <label for="">
+                    <input type="radio" name="orderop" value="110" data-text="金黃地瓜條套餐"> 金黃地瓜條套餐 + $110</label>
+            </div>
+            <div class="numnbottom">
+                <div class="counter">
+                    <button id="btn-minus" style="cursor: pointer;font-size: 25px; margin-bottom: 3px;">-</button>
+                    <span id="count-display" style="font-size: 27px; margin-top: 2px;">1</span>
+                    <button id="btn-plus" style="cursor: pointer; font-size: 25px;">+</button>
+                </div>
+                <button class="addcart" id="addToCartBtn">加入購物車</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-cartoverlay" id="cartModal">
+        <div class="modal-cartcontent">
+            <div class="cartcloseicon" id="cartcloseBtn" style="cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path
+                        d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z" />
+                </svg>
+            </div>
+            <div class="cartboxall">
+                <div class="cartlist">
+                    <div class="cartname">
+                        <p id="cart-title">商品名稱</p>
+                    </div>
+                    <div class="cartDetail">
+
+                        <div class="cartNumberBtn">
+                            <button id="cartBtn-minus" style="cursor: pointer;font-size: 20px;margin-bottom: 4px;">-</button>
+                            <span id="cartNumber">1</span>
+                            <button id="cartBtn-plus" style="cursor: pointer; font-size: 20px; margin-bottom: 3px;">+</button>
+                        </div>
+                        <div class="cartprice">
+                            <span class="cartprice"> $ <span id="cart-price">0</span></span>
+                        </div>
+                        <div class="cartdelete">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M136.7 5.9C141.1-7.2 153.3-16 167.1-16l113.9 0c13.8 0 26 8.8 30.4 21.9L320 32 416 32c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 8.7-26.1zM32 144l384 0 0 304c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-304zm88 64c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartlist">
+                    <div class="cartname">
+                        <p id="cart-title">商品名稱</p>
+                    </div>
+                    <div class="cartDetail">
+
+                        <div class="cartNumberBtn">
+                            <button id="cartBtn-minus" style="cursor: pointer;font-size: 20px; margin-bottom: 4px;">-</button>
+                            <span id="cartNumber">1</span>
+                            <button id="cartBtn-plus" style="cursor: pointer; font-size: 20px; margin-bottom: 3px;">+</button>
+                        </div>
+                        <div class="cartprice">
+                            <span class="cartprice"> $ <span id="cart-price">0</span></span>
+                        </div>
+                        <div class="cartdelete">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M136.7 5.9C141.1-7.2 153.3-16 167.1-16l113.9 0c13.8 0 26 8.8 30.4 21.9L320 32 416 32c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 8.7-26.1zM32 144l384 0 0 304c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-304zm88 64c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carttotal">
+                <span>訂單金額:</span>
+                <span class="totalprice"> $ <span id="cart-totalprice">0</span></span>
+
+            </div>
+
+            <div class="cartbutton">
+                <button id="keeporder">繼續點餐</button>
+                <button>付款結帳</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footerinfo">
+            <img src="gnb_Logo.png" alt="">
+            <div class="footertext">
+                <p>Good Night Burger</p>
+                <p>臺北市中山區南京東路三段219號</p>
+                <p>TEL:(02) 2712-0589</p>
+                <p>EMAIL : hello@goodnightburger.com.tw</p>
+            </div>
+        </div>
+
+        <div class="social">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l98.2 0 0-145.8-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 145.8 129 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
+        </div>
+    </div>
+
+    <div class="userloginbottom" id="userloginbottom">
+        <div class="usercard" id="usercard">
+            <div class="loginbigcard" id="loginbigcard">
+                <div class="usercloseicon" id="userclosebottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zM167 167c9.4-9.4 24.6-9.4 33.9 0l55 55 55-55c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-55 55 55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55-55 55c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l55-55-55-55c-9.4-9.4-9.4-24.6 0-33.9z" />
+                    </svg>
+                </div>
+                <div class="login_head_title ">
+                    <div class="loginblack" id="loginblock"></div>
+                    <div class="login" id="loginword">
+                        <h1>登入會員</h1>
+                    </div>
+                    <div class="loginBurgericon" id="sighupword">
+                        <img src="./icon/login_fries.svg" alt="">
+                    </div>
+                    <div class="signup" id="signupword">
+                        <p>立即註冊</p>
+                    </div>
+                </div>
+
+
+                <form class="namelist">
+                    <div class="list">
+                        <label>帳號 / Email<br><br>
+                            <input class="idbox" type="text" placeholder="請輸入帳號">
+                        </label>
+                    </div>
+                    <div class="list">
+                        <label>密碼<br><br>
+                            <input class="passwordbox" type="password" placeholder="請輸入密碼">
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-btn" id="submit-btn">登入</button>
+                    <button type="submit" class="signup-btn" id="signup-btn">註冊</button>
+                </form>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <script src="./cart.js"></script>
+    <script src="./gnb.js"></script>
+</body>
+
+</html>

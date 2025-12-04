@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>gnb_product_burger</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cssreset.css">
+    <link rel="stylesheet" href="./gnbcss.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="bannerphoto">
+        <div class="header" id="mainNav">
+            <input type="checkbox" id="menu_control">
+            <div class="headerburger">
+
+                <div class="PhoneHeaderOverlay">
+                </div>
+                <label for="menu_control" class="menuBtn">
+                    <div class="burgericon" id="burgericon">
+                        <img class="burgertop" src="./burger_icon/burger_top.svg" alt="">
+                        <div class="firstline"></div>
+                        <div class="secondline"></div>
+                        <div class="thirdline"></div>
+                        <img class="burgerbottom" src="./burger_icon/burger_bottom.svg" alt="">
+                    </div>
+                </label>
+            </div>
+            <div class="left">
+                <a href="./">首頁</a>
+                <a href="./gnb_aboutpage.html">關於我們</a>
+                <a href="./gnb_news.html">最新消息</a>
+            </div>
+            <div class="middle">
+                <a href="./">
+                    <img class="logo" src="./gnb_Logo.png" alt="">
+                </a>
+            </div>
+            <div class="right">
+                <a href="./gnb_menu.html">美味餐點</a>
+                <a href="./gnb_location.html">位置與聯繫</a>
+                <div class="headerorder">
+                    <a href="./gnb_ordernow.html" class="">立即點餐</a>
+                </div>
+                <div class="icons">
+                    <div class="usericon" id="usericon">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M399 384.2C376.9 345.8 335.4 320 288 320l-64 0c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z" />
+                        </svg>
+
+                    </div>
+                    <div class="carticon">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="bannercard">
+            <h1>OUR <br>PRODUCTS</h1>
+            <img class="main" src="/bannerpic/products_bannerpic.png" alt="">
+        </div>
+    </section>
+    <nav class="productsnav">
+        <a href="#menu_burger">BURGERS</a>
+        <a href="#menu_sides">SIDES</a>
+        <a href="#menu_sets">SETS</a>
+        <a href="#menu_drinks">DRINKS</a>
+        <a href="#menu_goods">MERCHANDISE</a>
+    </nav>
+
+
+
+    <!-- 漢堡菜單列 -->
+    <section class="productcard" id="menu_burger">
+        <h1>BURGERS</h1>
+        <div class="menuburgergrid container">
+            <div class="menucard">
+                <div class="menupic_burger">
+                    <img class="crown_icon" src="./icon/crown_icon.svg" alt="">
+                    <img src="./menuphoto/burger/beefburger.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>招牌牛肉堡<br>$200</h2>
+                    <br>
+                    <span>品嚐最純粹的經典!!!100%純牛肉手打製成的肉排，鎖住飽滿肉汁，香氣四溢，我們引以為傲的招牌~</span>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+            <div class="menucard ">
+                <div class="menupic_burger">
+                    <img src="./menuphoto/burger/beefcz.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>牛肉起司堡<br>$215</h2>
+                    <br>
+                    <span>肉排的熱度融化經典的美式起司，如奶油般滑順地包裹住鮮甜的肉汁，是起司愛好者不容錯過的選擇。</span>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+
+
+
+            <div class="menucard">
+                <div class="menupic_burger">
+                    <img src="./menuphoto/burger/doublepatty.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>雙層牛肉堡<br>$290</h2>
+                    <br>
+                    <span>毫不妥協地使用了兩片新鮮手打牛肉排，創造出厚實口感與加倍的美味。雙倍滿足獻給無肉不歡的您！</span>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+            <div class="menucard">
+                <div class="menupic_burger">
+                    <img src="./menuphoto/burger/baconbeef.png">
+                </div>
+                <div class="menutext">
+                    <h2>培根牛肉堡<br>$220</h2>
+                    <br>
+                    <span>多汁的牛肉排與香煎至金黃酥脆的蘋果木燻培根。與牛肉的鮮甜形成絕妙的平衡，為漢堡注入了強烈的個性。</span>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+            <div class="menucard">
+                <div class="menupic_burger">
+                    <img src="./menuphoto/burger/baconcheese.png" alt="">
+
+                </div>
+                <div class="menutext">
+                    <h2>培根牛肉起司堡<br>$235</h2>
+                    <br>
+                    <span>豪華的終極享受！現煎手打肉排與香濃起司，再疊加蘋果木燻培根，三種風味帶來無與倫比的滿足感。</span>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+
+            <div class="menucard">
+                <div class="menupic_burger">
+                    <img src="./menuphoto/burger/friedck.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>香脆雞腿堡<br>$200</h2>
+                    <br>
+                    <span>獨門香料醃製的去骨雞腿排，金黃酥脆的外皮完美鎖住所有肉汁。搭配鬆軟的烤麵包與新鮮生菜層次豐富。</span>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 薯條菜單列 -->
+    <section class="productcard" id="menu_sides">
+        <h1>SIDES</h1>
+        <div class="container">
+            <div class="menuburgergrid">
+                <div class="menucard">
+                    <div class="menupic">
+                        <img src="./menuphoto/side/thin_fries.png" alt="">
+                    </div>
+                    <div class="menutext">
+                        <h2>經典細薯<br>$80</h2>
+                        <br>
+                        <span>嚴選馬鈴薯手工切製，外酥內軟，爽口不油膩，一口接一口停不下來，是經典不敗的薯條代表。</span>
+                    </div>
+                    <!-- <button class="addcart">加入購物車</button> -->
+                </div>
+
+                <div class="menucard">
+                    <div class="menupic">
+                        <img src="./menuphoto/side/thick_fries.png" alt="">
+                    </div>
+                    <div class="menutext">
+                        <h2>厚切脆薯<br>$90</h2>
+                        <br>
+                        <span>選用新鮮馬鈴薯厚切製成，外層酥脆，內裡綿密，每一口都是滿足，喜歡厚實口感別錯過。</span>
+                    </div>
+                    <!-- <button class="addcart">加入購物車</button> -->
+                </div>
+
+                <div class="menucard">
+                    <div class="menupic">
+                        <img src="./menuphoto/side/yam_fries.png" alt="">
+                    </div>
+                    <div class="menutext">
+                        <h2>金黃地瓜條<br>$80</h2>
+                        <br>
+                        <span>嚴選台灣香甜地瓜製成，充滿自然甘甜與香氣，是經典薯條外最迷人的選擇。</span>
+                    </div>
+                    <!-- <button class="addcart">加入購物車</button> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 套餐菜單列 -->
+    <section class="productcard" id="menu_sets">
+        <h1>SETS</h1>
+        <div class="menuburgergrid">
+
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/sets/set_thinfries.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>經典細薯套餐<br>+$110</h2>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/sets/set_thickfries.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>厚切脆薯套餐<br>+$120</h2>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/sets/set_yamfries.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>金黃地瓜條套餐<br>+$110</h2>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+    </section>
+
+    <!-- 飲料菜單列 -->
+    <section class="productcard" id="menu_drinks">
+        <h1>DRINKS</h1>
+        <div class="menuburgergrid">
+
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/drinks/drink_coke.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>可口可樂<br>Original/Zero Sugar<br>M$50/L$60</h2>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/drinks/drink_spirt.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>雪碧<br>Original/Lime<br>M$50/L$60</h2>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/drinks/drink_nestle.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>雀巢檸檬紅茶<br><br>M$50/L$60</h2>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/drinks/drink_vanilashake.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>香草奶昔<br>M$90/L$120</h2>
+                    <br>
+                    <span>經典不敗的選擇！香草豆莢搭配滑順的牛奶，每一口都是最純粹的享受。</span>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/drinks/drink_strawshake.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>草莓奶昔<br>M$90/L$120</h2>
+                    <br>
+                    <span>夢幻的粉色誘惑！草莓的酸甜果香，帶著自然的甜味與濃郁奶香。</span>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+      
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/drinks/drink_blacktea.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>無糖紅茶<br>M$50/L$60</h2>
+                    <br>
+                    <span>零糖零負擔，更能品嚐到尾韻的自然回甘，是平衡罪惡感的好朋友~</span>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+    </section>
+
+    <!-- 周邊菜單列 -->
+    <section class="productcard" id="menu_goods">
+        <h1>MERCHANDISE</h1>
+        <div class="menuburgergrid goodsgrid">
+
+            <div class="menucard">
+                <div class="menupic">
+                    <img class="greencap" src="./menuphoto/goodspic/green_cap.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>水洗棒球老帽<br>(綠/卡其)<br>$590</h2>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/goodspic/white_tshirt.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>厚磅LOGO Tee<br>(白/黑)<br>$790</h2>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+
+            <div class="menucard">
+                <div class="menupic">
+                    <img src="./menuphoto/goodspic/bag.png" alt="">
+                </div>
+                <div class="menutext">
+                    <h2>LOGO托特包<br>$690</h2>
+                </div>
+                <!-- <button class="addcart">加入購物車</button> -->
+            </div>
+    </section>
+
+    <div class="footer">
+        <div class="footerinfo">
+            <img src="gnb_Logo.png" alt="">
+            <div class="footertext">
+                <p>Good Night Burger</p>
+                <p>臺北市中山區南京東路三段219號</p>
+                <p>TEL:(02) 2712-0589</p>
+                <p>EMAIL : hello@goodnightburger.com.tw</p>
+            </div>
+        </div>
+
+        <div class="social">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l98.2 0 0-145.8-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 145.8 129 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
+        </div>
+    </div>
+    <div class="userloginbottom" id="userloginbottom">
+        <div class="usercard" id="usercard">
+            <div class="loginbigcard" id="loginbigcard">
+                <div class="usercloseicon" id="userclosebottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zM167 167c9.4-9.4 24.6-9.4 33.9 0l55 55 55-55c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-55 55 55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55-55 55c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l55-55-55-55c-9.4-9.4-9.4-24.6 0-33.9z" />
+                    </svg>
+                </div>
+                <div class="login_head_title ">
+                    <div class="loginblack" id="loginblock"></div>
+                    <div class="login" id="loginword">
+                        <h1>登入會員</h1>
+                    </div>
+                    <div class="loginBurgericon" id="sighupword">
+                        <img src="./icon/login_fries.svg" alt="">
+                    </div>
+                    <div class="signup" id="signupword">
+                        <p>立即註冊</p>
+                    </div>
+                </div>
+
+
+                <form class="namelist">
+                    <div class="list">
+                        <label>帳號 / Email<br><br>
+                            <input class="idbox" type="text" placeholder="請輸入帳號">
+                        </label>
+                    </div>
+                    <div class="list">
+                        <label>密碼<br><br>
+                            <input class="passwordbox" type="password" placeholder="請輸入密碼">
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-btn" id="submit-btn">登入</button>
+                    <button type="submit" class="signup-btn" id="signup-btn">註冊</button>
+                </form>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <script src="./gnb.js"></script>
+</body>
+
+</html>
