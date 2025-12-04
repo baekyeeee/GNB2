@@ -127,7 +127,9 @@
         right: 65px;
 
     }
-
+.foodpic2 {
+    right: 90px;
+}
     .newsicon2 img {
         width: 15%;
         right: 10%;
@@ -547,6 +549,7 @@
     .bannerfoodpic {
         height: 150px;
         bottom: 20px;
+        right: 0;
     }
 
     .bannercard h1 {
@@ -563,12 +566,12 @@
 
     .foodpic2 {
         width: 130px;
-        right: 15%;
+        right: 65px;
         top: 34%;
     }
 
     .orderblue {
-        left: 4%;
+        left: 70px;
     }
 
     .orderblue a {
