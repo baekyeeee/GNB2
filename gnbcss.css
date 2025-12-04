@@ -182,7 +182,6 @@ button {
 
 .left a:hover,
 .right a:hover {
-    /* 來自 common.css 的 hover 效果 */
     color: #F8AF00;
     transform: scale(1.1);
     transition: 0.2s;
@@ -309,7 +308,8 @@ button {
     justify-content: flex-end;
     align-items: flex-end;
     gap: 7%;
-    bottom: 20px;
+    bottom: 10px;
+    right: 130px;
 }
 
 .foodpic1 {
