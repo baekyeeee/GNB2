@@ -261,7 +261,6 @@ button {
     text-align: end;
     line-height: 0.8;
     font-weight: 900;
-    border: 2px solid red;
     top: 65%;
     right: 6%;
 }
@@ -1545,6 +1544,7 @@ button {
 
 .bannercard_findus {
     display: flex;
+    position: relative;
 
 }
 
@@ -1563,8 +1563,7 @@ button {
     text-align: end;
     line-height: 0.8;
     font-weight: 900;
-    border: 2px solid red;
-    top: 40%;
+    top: 250px;
     right: 6%;
 }
 
@@ -1687,7 +1686,7 @@ button {
 
 .map iframe {
     width: 100%;
-    height: 450px;
+  
     border-radius: 30px;
 }
 
