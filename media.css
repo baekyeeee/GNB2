@@ -156,6 +156,7 @@
 
     .newscard {
         width: 100%;
+        height: 350px;
     }
 
     .abouttitle h1 {
@@ -202,9 +203,7 @@
         left: 300px;
     }
 
-    .bigcard {
-        height: 550px;
-    }
+  
 
     .bigcardtag {
         font-size: 20px;
@@ -423,7 +422,7 @@
     .closeicon {
         position: absolute;
         top: -15px;
-        left: 70%;
+        right:130px ;
     }
 
     .loginbigcard {
@@ -669,9 +668,7 @@
         right: 10%;
     }
 
-    .bigcard {
-        height: 550px;
-    }
+ 
 
     .bigcardtag {
         font-size: 20px;
@@ -862,27 +859,29 @@
 
 
 
-    .newsgrid {
+    /* .newsgrid {
         margin: auto;
-    }
+    } */
 
     .newscard {
-        width: 60%;
-        transform: translateX(33%);
+        width: 70%;
+        transform: translateX(25%);
     }
 
     .newscard:hover {
-        transform: translateX(33%);
+        transform: translateX(25%);
     }
 
     .bigcard {
-        width: 60%;
+        width: 70%;
+        height: 500px;
     }
+    
 
     .closeicon {
         width: 8%;
         position: absolute;
-        left: 70%;
+        right:20px ;
     }
 
     .social {
@@ -930,6 +929,12 @@
 
 
 @media screen and (max-width: 576px) {
+     .bigcard {
+        width: 70%;
+        height: 500px;
+    }
+ 
+    
     .title h1 {
         font-size: 40px;
     }
@@ -1187,6 +1192,13 @@
 
     .learnmore a {
         font-size: 15px;
+    }
+    .newscard{
+        width: 100%;
+        transform: translateX(0);
+    }
+     .newscard:hover{
+        transform: translateX(0);
     }
 }
 

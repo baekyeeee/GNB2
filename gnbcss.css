@@ -1115,10 +1115,10 @@ button {
 }
 
 .exmenu {
-    position: absolute;
-    top: 700px;
-    right: 50%;
-    transform: translateX(50%);
+       grid-row: 3/4;
+    grid-column: 2/3;
+    align-content: center;
+    justify-self: center;
 }
 
 .exmenu a {
@@ -1131,8 +1131,8 @@ button {
     padding: 5px 15px;
 }
 
-.exmenu a:hover {
-    color: #F8AF00;
+.exmenu:hover {
+    transform: scale(1.2);
 }
 
 
@@ -1199,11 +1199,12 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 110px;
+    align-content: center;
 }
 
 .newscard {
     width: 100%;
-    height: auto;
+    height: 350px;
     border-radius: 24px;
     overflow: hidden;
     background: #b5afb3;
@@ -1246,7 +1247,7 @@ button {
 
 .newscard img {
     width: 100%;
-    height: 100%;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -1314,8 +1315,8 @@ button {
 }
 
 .bigcard {
-    width: 300px;
-    height: 550px;
+    width: 400px;
+    height: 500px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -1326,6 +1327,7 @@ button {
     font-weight: 500;
     animation: slideIn 0.3s;
     z-index: -2;
+   
 
 
 }
@@ -1366,7 +1368,7 @@ button {
 .closeicon {
     position: absolute;
     top: -15px;
-    right: 300px;
+    right:0;
 }
 
 .closeicon svg {
