@@ -939,8 +939,8 @@
 
 @media screen and (max-width: 576px) {
     .modal-content {
-        width: 70%;
-        height: 50%;
+        width: 80%;
+      
     }
 
     #ordergoods h1 {
