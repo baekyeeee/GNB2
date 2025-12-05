@@ -464,7 +464,7 @@
     .ordertimelist input,
     .ordernamelist input,
     #pay {
-        width: 100%;
+        width: 60%;
 
     }
 
@@ -875,8 +875,9 @@
     .ordernav {
         width: 60%;
         flex-wrap: wrap;
-        height: auto;
+        height: 100px;
         margin: 250px auto 80px;
+        gap: 30px;
     }
 
     .ordernav a::before {
@@ -960,41 +961,51 @@
 
 
 @media screen and (max-width: 576px) {
-      .ordernav {
-        
+    #baconbfcz{
+        font-size: 19px;
+    }
+
+    input[type="date"],
+    input[type="time"] {
+        -webkit-appearance: none;
+        /* 針對 Safari/Chrome (WebKit) */
+        -moz-appearance: none;
+        /* 針對 Firefox */
+        appearance: none;
+    }
+
+    .ordernav {
         margin: 30px auto 80px;
     }
 
 
-.ordertimelist,
-.ordernamelist {
-    width: 100%;
-}
-.ordertimelist input,
-.ordernamelist input, 
-#pay {
-    /* 強制覆蓋 gnbcss.css 中的 200px 寬度 */
-    width: 100% !important; 
-    /* 確保高度被保留，不會因為內容太少而收縮 */
-    min-height: 42px; 
-    /* 調整 padding 避免內容太貼邊 */
-    padding: 10px 15px;
-    /* 調整圓角，讓它看起來像長方形欄位 */
-    border-radius: 30px !important; 
-}
+    .ordertimelist,
+    .ordernamelist {
+        width: 100%;
+    }
+
+    .ordertimelist input,
+    .ordernamelist input,
+    #pay {
+        width: 100% min-height: 42px;
+        padding: 10px 15px;
+        border-radius: 30px
+    }
 
     .cartbox {
-    width: 95%; /* 讓它佔據手機螢幕大部分寬度 */
-    margin: 80px auto 0;
-    height: auto; /* 讓高度自動調整 */
-}
+        width: 95%;
+        margin: 80px auto 0;
+        height: auto;
+    }
+
     .orderform {
-    display: flex;
-    flex-direction: column; 
-    width: 100%;
-    margin-top: 50px;
-    gap: 0;
-}
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+        gap: 0;
+    }
+
     .modal-cartcontent {
         width: 95%;
         height: 70%;
@@ -1293,6 +1304,10 @@
 
 
 @media screen and (max-width: 375px) {
+      .ordernav {
+        height: 150px;
+        gap: 30px;
+    }
     .modal-content {
         width: 95%;
     }

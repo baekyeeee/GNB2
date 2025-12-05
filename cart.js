@@ -59,12 +59,13 @@ document.querySelectorAll('.ordercard').forEach(function (card) {
 })
 
 
-const orderclose = document.getElementById('ordercloseBtn')
+const orderclose = document.querySelectorAll("#ordercloseBtn, #addToCartBtn")
 
-orderclose.addEventListener('click', function () {
+orderclose.forEach(button =>{
+     button.addEventListener('click', function () {
     productModal.style.display = 'none';
 })
-
+})
 
 
 
