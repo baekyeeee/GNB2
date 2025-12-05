@@ -37,7 +37,7 @@
 
 
 @media screen and (max-width: 1024px) {
-   .modal-cartcontent {
+    .modal-cartcontent {
         width: 80%;
         height: 70%;
     }
@@ -449,6 +449,25 @@
 
 
 @media screen and (max-width: 768px) {
+    .orderform {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .ordertimelist,
+    .ordernamelist {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .ordertimelist input,
+    .ordernamelist input,
+    #pay {
+        width: 100%;
+
+    }
+
     .modal-content {
         width: 60%;
     }
@@ -850,12 +869,14 @@
         width: 90%;
         flex-wrap: wrap;
         height: auto;
+        margin: 30px auto 80px;
     }
 
     .ordernav {
         width: 60%;
         flex-wrap: wrap;
         height: auto;
+        margin: 250px auto 80px;
     }
 
     .ordernav a::before {
@@ -939,22 +960,49 @@
 
 
 @media screen and (max-width: 576px) {
-    .ordertimelist input, .ordernamelist input, #pay {
+      .ordernav {
+        
+        margin: 30px auto 80px;
+    }
+
+
+.ordertimelist,
+.ordernamelist {
     width: 100%;
 }
-    .cartbox h1 {
-        font-size: 40px;
-    }
-    .orderform{
-        width: 95%;
-    }
-     .modal-cartcontent {
+.ordertimelist input,
+.ordernamelist input, 
+#pay {
+    /* 強制覆蓋 gnbcss.css 中的 200px 寬度 */
+    width: 100% !important; 
+    /* 確保高度被保留，不會因為內容太少而收縮 */
+    min-height: 42px; 
+    /* 調整 padding 避免內容太貼邊 */
+    padding: 10px 15px;
+    /* 調整圓角，讓它看起來像長方形欄位 */
+    border-radius: 30px !important; 
+}
+
+    .cartbox {
+    width: 95%; /* 讓它佔據手機螢幕大部分寬度 */
+    margin: 80px auto 0;
+    height: auto; /* 讓高度自動調整 */
+}
+    .orderform {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    margin-top: 50px;
+    gap: 0;
+}
+    .modal-cartcontent {
         width: 95%;
         height: 70%;
     }
+
     .modal-content {
         width: 80%;
-      
+
     }
 
     #ordergoods h1 {
@@ -1127,7 +1175,7 @@
     }
 
     .header {
-        background-color: coral;
+        background-color: lightseagreen;
     }
 
 
