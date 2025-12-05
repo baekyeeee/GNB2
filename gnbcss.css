@@ -76,7 +76,7 @@ button {
     align-items: center;
     margin: auto;
     position: absolute;
-    top: 2px;
+    top: 0px;
     right: 30px;
 }
 
@@ -116,11 +116,11 @@ button {
 }
 
 #burgericon.active .firstline {
-    transform: translateY(5px) rotate(15deg);
+    transform: translateY(4px) rotate(15deg);
 }
 
 #burgericon.active .thirdline {
-    transform: translateY(-2.5px) rotate(-15deg);
+    transform: translateY(-3.5px) rotate(-15deg);
 }
 
 
