@@ -1118,6 +1118,7 @@ button {
     grid-column: 2/3;
     align-content: center;
     justify-self: center;
+    transition: all .2s;
 }
 
 .exmenu a {
@@ -1367,7 +1368,7 @@ button {
 .closeicon {
     position: absolute;
     top: -15px;
-    right:0;
+    right:250px;
 }
 
 .closeicon svg {
@@ -1943,7 +1944,6 @@ input:focus {
 }
 
 .orderform {
-
     width: 500px;
     display: flex;
     justify-content: space-around;
@@ -1966,21 +1966,14 @@ input:focus {
 }
 
 .ordertimelist input,
-.ordernamelist input {
+.ordernamelist input,
+ #pay{
     border: 4px solid #336FA8;
     border-radius: 30px;
-    height: 40px;
+    height: 42px;
     background-color: #FAF3D3;
     margin-bottom: 20px;
     padding: 10px;
-}
-
-#pay {
-    border: 4px solid #336FA8;
-    border-radius: 30px;
-    height: 40px;
-    background-color: #FAF3D3;
-
 }
 
 #pay:focus {
