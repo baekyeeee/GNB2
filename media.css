@@ -939,6 +939,15 @@
 
 
 @media screen and (max-width: 576px) {
+    .ordertimelist input, .ordernamelist input, #pay {
+    width: 100%;
+}
+    .cartbox h1 {
+        font-size: 40px;
+    }
+    .orderform{
+        width: 95%;
+    }
      .modal-cartcontent {
         width: 95%;
         height: 70%;
