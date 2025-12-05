@@ -12,7 +12,6 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 60px;
 }
 
 body {
@@ -76,7 +75,7 @@ button {
     align-items: center;
     margin: auto;
     position: absolute;
-    top: 0px;
+    top: 1px;
     right: 30px;
 }
 
@@ -1380,14 +1379,14 @@ button {
 }
 
 /* 美味餐點 */
-/* 菜單列 */
+
 .productsnav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 80px;
-    width: 64.3%;
-    height: 80px;
+    width: 70%;
+    height: 85px;
     border-top: 5px solid #CD2D1A;
     border-bottom: 5px solid #CD2D1A;
     margin: 120px auto 0px;
@@ -1414,7 +1413,6 @@ button {
     transition: width 0.3s ease;
 }
 
-/* 滑過時底線展開 */
 .productsnav a:hover::after {
     width: 100%;
 }
