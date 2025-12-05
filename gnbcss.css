@@ -2116,7 +2116,7 @@ input:focus {
 .modal-content {
     background: white;
     width: 45%;
-    height: 70%;
+    height: 500px;
     border-radius: 20px;
     padding: 20px;
     position: relative;
