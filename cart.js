@@ -10,20 +10,6 @@ const modalPrice = document.getElementById('modal-price');
 const countDisplay = document.getElementById('count-display');
 const optionradio = document.getElementById('modal-radio');
 
-//加入購物車
- const addToCart = document.getElementById('addToCartBtn')
-
- addToCart.addEventListener("click", function(){
-     const orderItem = {
-            id: Date.now(),
-            name: currentProduct.name,
-            price: currentProduct.price,
-            count: currentCount,
-            total: currentProduct.price * currentCount
-        };
-
-
- });
 
 //點擊小卡出現大卡
 document.querySelectorAll('.ordercard').forEach(function (card) {
@@ -85,18 +71,4 @@ document.getElementById('btn-minus').addEventListener('click', function () {
 
 
 
-//打開購物車大卡片
-const opencart = document.getElementById("carticon");
-const cartbigcard = document.getElementById("cartModal");
-const cartclose = document.querySelectorAll("#cartcloseBtn, #keeporder");
 
-
-opencart.addEventListener("click" , function(){
-  cartbigcard.style.display = "flex"
-})
-
-cartclose.forEach(btn => {
-  btn.addEventListener("click", function(){
-     cartbigcard.style.display = "none"
-  })
-})

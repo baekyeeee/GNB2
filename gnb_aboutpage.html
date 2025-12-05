@@ -58,7 +58,7 @@
                         </svg>
 
                     </div>
-                    <div class="carticon">
+                    <div class="carticon" id="carticon">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                                 <path
@@ -203,6 +203,79 @@
             </div>
 
 
+        </div>
+    </div>
+    <div class="modal-cartoverlay" id="cartModal">
+        <div class="modal-cartcontent">
+            <div class="cartcloseicon" id="cartcloseBtn" style="cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path
+                        d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z" />
+                </svg>
+            </div>
+            <div class="cartboxall">
+                <div class="cartlist">
+                    <div class="cartname">
+                        <p id="cart-title">招牌牛肉堡</p>
+                        <p id="optionAdd" style="font-size: 12px;">+經典細薯套餐</p>
+                    </div>
+                    <div class="cartDetail">
+
+                        <div class="cartNumberBtn">
+                            <button id="cartBtn-minus"
+                                style="cursor: pointer;font-size: 20px;margin-bottom: 4px;">-</button>
+                            <span id="cartNumber">1</span>
+                            <button id="cartBtn-plus"
+                                style="cursor: pointer; font-size: 20px; margin-bottom: 3px;">+</button>
+                        </div>
+                        <div class="cartprice">
+                            <span class="cartprice"> $ <span id="cart-price">310</span></span>
+                        </div>
+                        <div class="cartdelete">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M136.7 5.9C141.1-7.2 153.3-16 167.1-16l113.9 0c13.8 0 26 8.8 30.4 21.9L320 32 416 32c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 8.7-26.1zM32 144l384 0 0 304c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-304zm88 64c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartlist">
+                    <div class="cartname">
+                        <p id="cart-title">香草奶昔</p>
+                    </div>
+                    <div class="cartDetail">
+
+                        <div class="cartNumberBtn">
+                            <button id="cartBtn-minus"
+                                style="cursor: pointer;font-size: 20px; margin-bottom: 4px;">-</button>
+                            <span id="cartNumber">1</span>
+                            <button id="cartBtn-plus"
+                                style="cursor: pointer; font-size: 20px; margin-bottom: 3px;">+</button>
+                        </div>
+                        <div class="cartprice">
+                            <span class="cartprice"> $ <span id="cart-price">120</span></span>
+                        </div>
+                        <div class="cartdelete">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M136.7 5.9C141.1-7.2 153.3-16 167.1-16l113.9 0c13.8 0 26 8.8 30.4 21.9L320 32 416 32c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 8.7-26.1zM32 144l384 0 0 304c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-304zm88 64c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carttotal">
+                <span>訂單金額:</span>
+                <span class="totalprice"> $ <span id="cart-totalprice">430</span></span>
+
+            </div>
+
+            <div class="cartbutton">
+                <button id="keeporder">繼續點餐</button>
+                <button>付款結帳</button>
+            </div>
         </div>
     </div>
     <script src="./gnb.js"></script>

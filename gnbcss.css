@@ -2187,6 +2187,9 @@ input:focus {
             outline: none;
         } */
 /* 購物車卡片 */
+.cartname{
+    line-height: 1.5;
+}
 .modal-cartoverlay {
     display: none;
     position: fixed;

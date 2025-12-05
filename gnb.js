@@ -94,8 +94,38 @@ if (bigcard) {
   });
 }
 
+//打開購物車大卡片
+const opencart = document.getElementById("carticon");
+const cartbigcard = document.getElementById("cartModal");
+const cartclose = document.querySelectorAll("#cartcloseBtn, #keeporder");
 
 
+opencart.addEventListener("click" , function(){
+  cartbigcard.style.display = "flex"
+})
+
+cartclose.forEach(btn => {
+  btn.addEventListener("click", function(){
+     cartbigcard.style.display = "none"
+  })
+})
+
+// 購物車數量加減
+
+let cartClick = 1;
+const cartNumber = document.getElementById('cartNumber')
+
+document.getElementById('cartBtn-plus').addEventListener('click', function(){
+            cartClick++;
+            cartNumber.innerText = cartClick;
+})
+
+document.getElementById('cartBtn-minus').addEventListener('click', function(){
+    if(cartClick >1){
+            cartClick--;
+            cartNumber.innerText = cartClick;
+        }
+})
 
 
 

@@ -961,7 +961,19 @@
 
 
 @media screen and (max-width: 576px) {
-    #baconbfcz{
+    .cartname {
+        font-size: 15px;
+    }
+
+    .cartDetail {
+        gap: 5px;
+    }
+.cartNumberBtn {
+   
+justify-content: ;
+
+}
+    #baconbfcz {
         font-size: 19px;
     }
 
@@ -987,7 +999,7 @@
     .ordertimelist input,
     .ordernamelist input,
     #pay {
-        width: 100% min-height: 42px;
+        width: 100%;
         padding: 10px 15px;
         border-radius: 30px
     }
@@ -1304,10 +1316,11 @@
 
 
 @media screen and (max-width: 375px) {
-      .ordernav {
+    .ordernav {
         height: 150px;
         gap: 30px;
     }
+
     .modal-content {
         width: 95%;
     }
