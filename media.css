@@ -37,6 +37,10 @@
 
 
 @media screen and (max-width: 1024px) {
+    .modal-content {
+        width: 50%;
+    }
+
     .productsnav {
         width: 90%;
     }
@@ -444,8 +448,12 @@
 
 
 @media screen and (max-width: 768px) {
+    .modal-content {
+        width: 60%;
+    }
+
     .ordertitle {
-    font-size: 50px;
+        font-size: 50px;
     }
 
     .productcard h1 {
@@ -930,9 +938,14 @@
 
 
 @media screen and (max-width: 576px) {
-#ordergoods h1{
-    font-size: 35px;
-}
+    .modal-content {
+        width: 70%;
+        height: 50%;
+    }
+
+    #ordergoods h1 {
+        font-size: 35px;
+    }
 
     .bigcard {
         width: 70%;
@@ -1218,6 +1231,10 @@
 
 
 @media screen and (max-width: 375px) {
+    .modal-content {
+        width: 95%;
+    }
+
     .social {
         width: 45px;
         bottom: 0%;
