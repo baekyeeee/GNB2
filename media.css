@@ -37,8 +37,9 @@
 
 
 @media screen and (max-width: 1024px) {
-    .modal-content {
-        width: 50%;
+   .modal-cartcontent {
+        width: 80%;
+        height: 70%;
     }
 
     .productsnav {
@@ -938,6 +939,10 @@
 
 
 @media screen and (max-width: 576px) {
+     .modal-cartcontent {
+        width: 95%;
+        height: 70%;
+    }
     .modal-content {
         width: 80%;
       

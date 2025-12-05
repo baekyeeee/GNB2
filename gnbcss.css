@@ -1944,10 +1944,11 @@ input:focus {
 }
 
 .orderform {
-    width: 500px;
+    width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 50px;
+    gap: 30px;
 }
 
 .ordertimelist,
@@ -2204,7 +2205,10 @@ input:focus {
     margin: 65px auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
+     font-size: 18px;
+    font-weight: 700;
+     color: #336FA8;
+    
 }
 
 .cartcloseicon {
@@ -2219,11 +2223,7 @@ input:focus {
     cursor: pointer;
 }
 
-.modal-cartcontent {
-    color: #336FA8;
-    font-size: 18px;
-    font-weight: 700;
-}
+
 
 .cartboxall {
     width: 85%;
