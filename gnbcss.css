@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* outline: 1px solid pink; */
 }
 
 .baloo-2 {
@@ -174,8 +173,6 @@ button {
 .right {
     width: 45%;
     display: flex;
-    /* justify-content:flex-start; */
-    gap: 30px;
     align-items: center;
 }
 
@@ -461,7 +458,6 @@ button {
 .aboutwords {
     display: flex;
     justify-content: flex-end;
-    /* width: fit-content; */
 }
 
 .text h2 {
@@ -677,12 +673,8 @@ button {
 .swiper-container-wrapper {
     width: 100%;
     margin: auto;
-    /* 稍微寬一點讓兩側顯示完整 */
     padding: 20px 0 60px;
-    /* 上下留空間 */
     position: relative;
-
-    /* 為了放箭頭 */
 }
 
 .swiper {
@@ -693,23 +685,16 @@ button {
 }
 
 .swiper-slide {
-    /* 在 Coverflow 模式下，這裡負責決定卡片的基本寬高 */
     background-position: center;
     background-size: cover;
     width: 400px;
-
-    /* 設定一個基準寬度 */
     height: auto;
-    /* 確保內容置中 */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Coverflow 不需要手寫 transition 和 scale，JS 會處理 */
 }
 
 
-
-/* --- 模擬您的漢堡卡片樣式 --- */
 .burger-card {
     padding: 0;
     text-align: center;
@@ -721,7 +706,7 @@ button {
 
 }
 
-/* 圖片區域 */
+
 .img-box {
     padding: 20px;
 }
@@ -770,19 +755,17 @@ button {
     bottom: 0px;
 }
 
-/* --- 自定義箭頭樣式 --- */
-/* 1. 隱藏預設箭頭 */
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
     content: none;
 }
 
-/* 2. 放鬆外層容器的大小限制 */
+
 .swiper-button-next,
 .swiper-button-prev {
     width: auto;
     height: auto;
-    /* 如果覺得位置太貼邊，可以在這裡微調 */
 }
 
 .swiper-button-prev {
@@ -795,13 +778,11 @@ button {
     top: 250px;
 }
 
-/* 3. 設定 SVG 的實際大小與顏色 */
+
 .swiper-button-next svg,
 .swiper-button-prev svg {
     width: 70px;
-    /* 改成你想要的大小，例如 80px */
     height: auto;
-    /* 維持比例 */
     fill: #CD2D1A;
 }
 
@@ -1368,15 +1349,14 @@ button {
 .closeicon {
     position: absolute;
     top: -15px;
-    right: 250px;
+    right: 270px;
 }
 
 .closeicon svg {
-    fill: #ffffff;
+    fill: #413B3B;
     cursor: pointer;
     width: 50px;
-    ;
-
+    z-index: 1;
 }
 
 /* 美味餐點 */
@@ -1526,23 +1506,6 @@ button {
     margin-bottom: 70px;
 }
 
-/* .addcart {
-    width: 200px;
-    height: 53px;
-    background-color: #CD2D1A;
-    font-size: 25px;
-    color: #FAF3D3;
-    border: none;
-    border-radius: 50px;
-    margin: 40px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.addcart:hover {
-    background-color: #F8AF00;
-} */
 
 /* 聯絡我們與位置 */
 
@@ -1783,7 +1746,6 @@ button {
 
 
 .login_head_title {
-    /* width: 300px; */
     font-size: 25px;
     font-weight: 700;
     display: flex;
@@ -2023,7 +1985,6 @@ input:focus {
 }
 
 .burgerordercard {
-    /* width: 30%; */
     border: 5px solid #336FA8;
     border-radius: 30px;
     display: flex;
@@ -2034,7 +1995,6 @@ input:focus {
 }
 
 .ordercard {
-    /* width: 30%; */
     border: 5px solid #336FA8;
     border-radius: 30px;
     display: flex;
@@ -2183,9 +2143,7 @@ input:focus {
     margin-bottom: 20px;
 }
 
-/* input:focus{
-            outline: none;
-        } */
+
 /* 購物車卡片 */
 .cartname{
     line-height: 1.5;

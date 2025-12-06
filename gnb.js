@@ -54,9 +54,6 @@ if (accountBtn) {
 const burgerIcon = document.getElementById("burgericon");
 if (burgerIcon) {
   burgerIcon.addEventListener("click", function () {
-    // classList.toggle 的意思是：
-    // 如果 burgerIcon 身上有 "active" 這個 class，就把它拿掉 (復原)
-    // 如果沒有，就把它加上去 (變叉叉)
     this.classList.toggle("active");
   });
 }

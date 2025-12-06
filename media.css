@@ -102,7 +102,6 @@
         text-align: center;
         position: absolute;
         top: 120px;
-        /* right: 70px; */
         gap: 20px;
     }
 
@@ -141,21 +140,13 @@
         right: 90px;
     }
 
-    /* .newsicon2 img {
-        width: 15%;
-        right: 10%;
-        top: 95%;
-    } */
-
     .bannercard h1 {
         font-size: 70px;
         top: 70%;
-
     }
 
     .bannercard_findus h1 {
         font-size: 70px;
-
     }
 
     .productcard h1 {
@@ -399,24 +390,18 @@
     .detailbox {
         width: 48%;
         order: 1;
-        /* 排第 1 */
     }
 
     .map {
         width: 48%;
-        /* 縮小寬度跟 Detailbox 並排 */
         order: 2;
-        /* 排第 2 (關鍵！) */
         margin-top: 0;
-        /* 拿掉電腦版的上距，對齊 Detailbox */
         margin-bottom: 30px;
     }
 
     .contactbox {
         width: 100%;
-        /* 變寬，強迫換行到下方 */
         order: 3;
-        /* 排第 3 (關鍵！) */
         margin-top: 20px;
     }
 
@@ -425,7 +410,6 @@
         top: 20px;
         width: 100%;
         height: 400px;
-        /* 高度可視平板高度微調 */
     }
 
     .footertext {
@@ -545,9 +529,7 @@
     .exmenu {
         position: relative;
         grid-column: 1 / 3;
-        /* 跨滿兩欄 */
         grid-row: 4 / 5;
-        /* 放在第 4 列 */
         top: auto;
         right: auto;
         transform: none;
@@ -560,7 +542,6 @@
 
     .story-img {
         bottom: 100px;
-
     }
 
     html,
@@ -573,7 +554,7 @@
         max-width: 90%;
     }
 
-  
+
 
     .slogan {
         font-size: 32px;
@@ -966,11 +947,13 @@
     .cartDetail {
         gap: 5px;
     }
-.cartNumberBtn {
-   
-justify-content: ;
 
-}
+    .cartNumberBtn {
+
+        justify-content: ;
+
+    }
+
     #baconbfcz {
         font-size: 19px;
     }
@@ -978,9 +961,7 @@ justify-content: ;
     input[type="date"],
     input[type="time"] {
         -webkit-appearance: none;
-        /* 針對 Safari/Chrome (WebKit) */
         -moz-appearance: none;
-        /* 針對 Firefox */
         appearance: none;
     }
 
@@ -1031,8 +1012,8 @@ justify-content: ;
     }
 
     .bigcard {
-        width: 70%;
-        height: 500px;
+        width: 100%;
+        height: 530px;
     }
 
 
@@ -1195,7 +1176,7 @@ justify-content: ;
         max-width: 90%;
     }
 
-    
+
 
 
 
@@ -1205,13 +1186,12 @@ justify-content: ;
         margin-top: 5px;
     }
 
-    /* --- 修正首頁圖片與文字 --- */
+  
     .bannerpic {
         width: 100%;
         height: 500px;
     }
 
-    /* 字體修正：原本 5px 太小了，這裡改回正常一點 */
     .slogan {
         font-size: 25px;
         line-height: 2;
@@ -1454,7 +1434,7 @@ justify-content: ;
         width: 20px;
     }
 
-    
+
 
     .aboutpic1 {
         top: 300px;
