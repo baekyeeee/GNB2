@@ -2087,7 +2087,7 @@ input:focus {
     padding: 20px;
     position: relative;
     border: 6px solid #336FA8;
-    margin: 30px auto;
+    margin: 60px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -2098,7 +2098,7 @@ input:focus {
     position: absolute;
     width: 50px;
     right: -20px;
-    top: -25px;
+    top: -35px;
 }
 
 .modal-radio {
