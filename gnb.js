@@ -61,7 +61,7 @@ if (burgerIcon) {
 
 // news卡片點擊
 const bigcard = document.getElementById("newsbigcard");
-const btns = document.querySelectorAll(".btn-reset");
+const btns = document.querySelectorAll(".opennews");
 const btnss = document.querySelectorAll(".news-righticon");
 const close = document.getElementById("closebottom");
 if (bigcard) {
