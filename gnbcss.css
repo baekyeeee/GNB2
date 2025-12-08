@@ -1173,12 +1173,13 @@ button {
     margin: auto;
     position: relative;
 }
-.opennews{
-  background: none;
-  border: none;
-  padding: 0;
-  text-align: left;
-  cursor: pointer;
+
+.opennews {
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
 }
 
 .newsgrid {
@@ -1913,11 +1914,11 @@ input:focus {
 }
 
 .orderform {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .ordertimelist,
