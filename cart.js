@@ -54,7 +54,7 @@ document.querySelectorAll('.ordercard').forEach(function (card) {
 })
 
 
-//購物大卡金額更新
+//點餐大卡金額更新
 function updateModalTotal() {
     const total = (BasePrice + optionPrice) * clickCount;
     modalPrice.innerText = total;

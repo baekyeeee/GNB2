@@ -2310,4 +2310,5 @@ input:focus {
     position: absolute;
     right: 20%;
     bottom: 10%;
+    cursor: pointer;
 }
