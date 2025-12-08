@@ -1400,6 +1400,22 @@ button {
     transition: width 0.3s ease;
 }
 
+.ordernav a:hover::after {
+    width: 100%;
+}
+.ordernav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background-color: #F8AF00;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+}
+
 .productsnav a:hover::after {
     width: 100%;
 }
