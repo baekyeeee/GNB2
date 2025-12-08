@@ -1453,8 +1453,6 @@ button {
 .menuburgergrid {
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
-    max-width: 1200px;
-
     margin: auto;
     display: grid;
 }

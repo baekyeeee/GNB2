@@ -1,7 +1,6 @@
 
 //導覽列滾動放大
 const header = document.getElementById("mainNav");
-if (header) {
   window.addEventListener("scroll", function () {
     if (window.scrollY > 20) {
       header.classList.add("scrolled");
@@ -9,7 +8,7 @@ if (header) {
       header.classList.remove("scrolled");
     }
   });
-}
+
 //登入卡片導覽方塊
 const accountBtn = document.getElementById("usericon")
 const loginClick = document.getElementById("loginword");
@@ -20,34 +19,33 @@ const loginblock = document.getElementById("loginblock");
 const userCard = document.getElementById("userloginbottom");
 const userClose = document.getElementById("userclosebottom");
 
-if (signupClick) {
+
   signupClick.addEventListener("click", function () {
     loginBtn.style.display = "none";
     signupBtn.style.display = "block";
     loginblock.style.left = "165px";
 
   });
-}
 
-if (loginClick) {
+
+
   loginClick.addEventListener("click", function () {
     loginBtn.style.display = "block";
     signupBtn.style.display = "none";
     loginblock.style.left = "-9px";
   });
-}
 
-if (userClose) {
+
+
   userClose.addEventListener("click", function () {
     userCard.style.display = "none";
   });
-}
 
-if (accountBtn) {
+
   accountBtn.addEventListener("click", function () {
     userCard.style.display = "flex";
   })
-}
+
 
 
 //漢堡選單動畫
@@ -72,19 +70,19 @@ if (bigcard) {
       });
     });
   }
-  if (btnss) {
+
     btnss.forEach(function (btn2) {
       btn2.addEventListener("click", function () {
         bigcard.style.display = "flex";
       });
     });
-  }
+  
 
-  if (close) {
+
     close.addEventListener("click", function () {
       bigcard.style.display = "none";
     });
-  }
+  
 
   bigcard.addEventListener("click", function () {
     bigcard.style.display = "none";
