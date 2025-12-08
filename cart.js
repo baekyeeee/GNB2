@@ -90,6 +90,12 @@ const orderclose = document.querySelectorAll("#ordercloseBtn, #addToCartBtn")
 
 orderclose.forEach(button =>{
      button.addEventListener('click', function () {
-    productModal.style.display = 'none';
+   if (this.id === 'addToCartBtn') {
+             alert('已加入購物車🍟(๑ᵔ⤙ᵔ๑)🍔');
+        }
+
+        // 關閉視窗
+        productModal.style.display = 'none';
+    });
 })
-})
+
