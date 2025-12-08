@@ -246,7 +246,8 @@ button {
     width: 100%;
     height: 387px;
     opacity: 70%;
-    background-size: cover;
+    /* background-size: cover; */
+    object-fit: cover;
 }
 
 
@@ -1403,6 +1404,7 @@ button {
 .ordernav a:hover::after {
     width: 100%;
 }
+
 .ordernav a::after {
     content: "";
     position: absolute;
@@ -1539,6 +1541,7 @@ button {
     width: 100%;
     height: 387px;
     opacity: 70%;
+    object-fit: cover;
 
 }
 
